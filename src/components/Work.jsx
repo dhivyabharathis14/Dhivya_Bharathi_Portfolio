@@ -29,7 +29,7 @@ const works = [
       "Developed a music controller app with Spotify OAuth integration allowing login, playback, and track control.Synchronized user interactions with live music streaming functionality.",
   },
   {
-    imgSrc: "/images/Project-msaddin.png",
+    imgSrc: "/images/project-add-on.png",
     title: "Microsoft Add-in & Google Add-on",
     tags: ["AppScript", "Microsoft API", "AI", "React"],
     projectLink: "",

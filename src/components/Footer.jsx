@@ -141,7 +141,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6 my-10">
             <a href="/" className="logo reveal-up group">
               <img
-                src="/images/logo.png"
+                src="/images/logo.svg"
                 width={48}
                 height={48}
                 alt="Logo"
