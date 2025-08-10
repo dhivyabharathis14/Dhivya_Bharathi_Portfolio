@@ -6,7 +6,7 @@ import SkillCard from "./SkillCard";
 const skillItem = [
   // Frontend & UI
   {
-    imgSrc: "/images/react.svg",
+    imgSrc: "/images/logo.svg",
     label: "React",
     desc: "JS Library",
   },
@@ -20,11 +20,11 @@ const skillItem = [
     label: "TypeScript",
     desc: "Type Safety",
   },
-  {
-    imgSrc: "/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
-  },
+  // {
+  //   imgSrc: "/images/css3.svg",
+  //   label: "CSS",
+  //   desc: "User Interface",
+  // },
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
@@ -36,6 +36,11 @@ const skillItem = [
     imgSrc: "/images/nodejs.svg",
     label: "NodeJS",
     desc: "Web Server",
+  },
+  {
+    imgSrc: "/images/django.png",
+    label: "Django",
+    desc: "Python",
   },
   {
     imgSrc: "/images/postgresql.svg",

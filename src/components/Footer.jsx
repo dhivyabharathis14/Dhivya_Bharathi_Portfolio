@@ -139,7 +139,7 @@ const Footer = () => {
 
           {/* Bottom Section */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6 my-10">
-            <a href="/" className="logo reveal-up group">
+            {/* <a href="/" className="logo reveal-up group">
               <img
                 src="/images/logo.svg"
                 width={48}
@@ -147,7 +147,7 @@ const Footer = () => {
                 alt="Logo"
                 className="transition-transform duration-300 group-hover:scale-110"
               />
-            </a>
+            </a> */}
 
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
               <p className="text-zinc-500 text-sm reveal-up text-center sm:text-left">
