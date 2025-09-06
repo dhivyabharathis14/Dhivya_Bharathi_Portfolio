@@ -19,6 +19,7 @@ const Navbar = ({ navOpen }) => {
       { label: "Work", link: "#experience" },
       { label: "Skills", link: "#skill" },
       { label: "Projects", link: "#work" },
+      { label: "Badges", link: "#badge" },
       { label: "Contact", link: "#contact" },
     ],
     []

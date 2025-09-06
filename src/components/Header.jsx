@@ -34,7 +34,7 @@ const Header = () => {
         </div>
 
         <a
-          href="https://github.com/dhivyabharathis14"
+          href="https://github.com/harish1817"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-secondary max-md:hidden md:justify-self-end flex items-center gap-3 px-3 py-6 sm:px-4 sm:py-5 text-sm sm:text-base rounded-lg hover:bg-zinc-700 transition-colors shadow-inner"

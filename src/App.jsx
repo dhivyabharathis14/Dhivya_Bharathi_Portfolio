@@ -21,6 +21,7 @@ import Work from "./components/Work";
 // import Review from "./components/Review";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Badge from "./components/Badges";
 
 const App = () => {
   useGSAP(() => {
@@ -62,6 +63,9 @@ const App = () => {
         </section>
         <section id="work">
           <Work />
+        </section>
+        <section id="badge">
+          <Badge />
         </section>
         <section id="contact">
           <Footer />

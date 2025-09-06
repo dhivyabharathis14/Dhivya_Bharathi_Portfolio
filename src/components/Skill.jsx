@@ -5,47 +5,52 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   // Frontend & UI
-  {
-    imgSrc: "/images/logo.svg",
-    label: "React",
-    desc: "JS Library",
-  },
-  {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
-    desc: "Interaction",
-  },
-  {
-    imgSrc: "/images/typescript.svg",
-    label: "TypeScript",
-    desc: "Type Safety",
-  },
+  // {
+  //   imgSrc: "/images/logo.svg",
+  //   label: "React",
+  //   desc: "JS Library",
+  // },
+  // {
+  //   imgSrc: "/images/javascript.svg",
+  //   label: "JavaScript",
+  //   desc: "Interaction",
+  // },
+  // {
+  //   imgSrc: "/images/typescript.svg",
+  //   label: "TypeScript",
+  //   desc: "Type Safety",
+  // },
   // {
   //   imgSrc: "/images/css3.svg",
   //   label: "CSS",
   //   desc: "User Interface",
   // },
-  {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
-  },
+  // {
+  //   imgSrc: "/images/tailwindcss.svg",
+  //   label: "TailwindCSS",
+  //   desc: "User Interface",
+  // },
 
-  // Backend & Database
+  // // Backend & Database
+  // {
+  //   imgSrc: "/images/nodejs.svg",
+  //   label: "NodeJS",
+  //   desc: "Web Server",
+  // },
+  // {
+  //   imgSrc: "/images/django.png",
+  //   label: "Django",
+  //   desc: "Python",
+  // },
+  // {
+  //   imgSrc: "/images/postgresql.svg",
+  //   label: "PostgreSQL",
+  //   desc: "SQL Database",
+  // },
   {
-    imgSrc: "/images/nodejs.svg",
-    label: "NodeJS",
-    desc: "Web Server",
-  },
-  {
-    imgSrc: "/images/django.png",
-    label: "Django",
-    desc: "Python",
-  },
-  {
-    imgSrc: "/images/postgresql.svg",
-    label: "PostgreSQL",
-    desc: "SQL Database",
+    imgSrc: "/images/python.png",
+    label: "Python",
+    desc: "Development",
   },
   {
     imgSrc: "/images/vectordb.svg",
@@ -53,50 +58,96 @@ const skillItem = [
     desc: "PG Vector & Chroma",
   },
 
-  // Authentication & Services
-  {
-    imgSrc: "/images/auth.svg",
-    label: "Auth",
-    desc: "Authentication",
-  },
+  // // Authentication & Services
+  // {
+  //   imgSrc: "/images/auth.svg",
+  //   label: "Auth",
+  //   desc: "Authentication",
+  // },
   {
     imgSrc: "/images/langchain.png",
     label: "LangChain",
     desc: "Generative AI",
   },
 
-  // Development Tools
+  // // Development Tools
   {
     imgSrc: "/images/vscode.svg",
     label: "VS Code",
     desc: "Code Editor",
   },
-  {
-    imgSrc: "/images/docker.svg",
-    label: "Docker",
-    desc: "Deployment",
-  },
-  {
-    imgSrc: "/images/jenkins.png",
-    label: "Jenkins",
-    desc: "Automation Server",
-  },
+  // {
+  //   imgSrc: "/images/docker.svg",
+  //   label: "Docker",
+  //   desc: "Deployment",
+  // },
+  // {
+  //   imgSrc: "/images/jenkins.png",
+  //   label: "Jenkins",
+  //   desc: "Automation Server",
+  // },
   {
     imgSrc: "/images/git.svg",
     label: "Git",
     desc: "Version Control",
   },
 
-  // API Development
+  // // API Development
+  // {
+  //   imgSrc: "/images/postman.svg",
+  //   label: "Postman",
+  //   desc: "Building API",
+  // },
+  // {
+  //   imgSrc: "/images/webpack.png",
+  //   label: "Webpack",
+  //   desc: "Bundling",
+  // },
+
   {
-    imgSrc: "/images/postman.svg",
-    label: "Postman",
-    desc: "Building API",
+    imgSrc: "/images/powerbi.jpg",
+    label: "Power BI",
+    desc: "Data Visualization",
   },
   {
-    imgSrc: "/images/webpack.png",
-    label: "Webpack",
-    desc: "Bundling",
+    imgSrc: "/images/powerapps.jpg",
+    label: "Power Apps",
+    desc: "App Development",
+  },
+  {
+    imgSrc: "/images/Databricks.png",
+    label: "Databricks",
+    desc: "Big Data & Analytics",
+  },
+  {
+    imgSrc: "/images/jupyter.png",
+    label: "Jupyter",
+    desc: "Notebooks & Prototyping",
+  },
+  {
+    imgSrc: "/images/excel.png",
+    label: "Excel",
+    desc: "Data Analysis",
+  },
+  {
+    imgSrc: "/images/numpy.png",
+    label: "NumPy",
+    desc: "Numerical Computing",
+  },
+  {
+    imgSrc: "/images/pandas.png",
+    label: "Pandas",
+    desc: "Data Manipulation",
+  },
+  {
+    imgSrc: "/images/ml.png",
+    label: "Machine Learning",
+    desc: "Modeling & Forecasting",
+  },
+  {
+    imgSrc: "/images/figma.png",
+    label: "Figma",
+    desc: "Wireframe",
   },
 ];
 
@@ -106,9 +157,9 @@ const Skill = () => {
       <div className="container">
         <h2 className="headline-2 reveal-up">My tech stack</h2>
 
-        <p className="text-zinc-300 mt-3 mb-8 max-w-[50ch] reveal-up">
-          Discover the powerful tools and technologies I use to create
-          exceptional, high-performing websites & applications.
+        <p className="text-zinc-300 mt-3 mb-8 max-w-[110ch] reveal-up">
+          Explore the powerful tools and technologies I leverage to transform
+          data into actionable insights and impactful analytics solutions.
         </p>
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">

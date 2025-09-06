@@ -5,61 +5,53 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/Project-portfolio.png",
-    title: "Personal Portfolio",
-    tags: ["Tailwind CSS", "React", "Frontend"],
-    projectLink: "https://dhivya.info/",
+    imgSrc: "/images/Flight-Finder.jpg",
+    title: " Flight Finder",
+    tags: ["Python", "SMT-Email"],
+    projectLink: "https://github.com/harish1817/SkyExplorer-Flight-Search",
     projectDescription:
-      "This is my personal portfolio website. Created using React.js, Tailwind CSS. It showcases my projects, skills.",
+      "Built a flight deal alert system using Python, integrating Tequila and Sheety APIs to monitor airfare and notify users of top deals featuring price drops of 30% or more.",
   },
   {
-    imgSrc: "/images/Project-goalset.png",
-    title: " Goal Management App",
-    tags: ["Full Stack", "React", "Django", "SaaS"],
-    projectLink: "",
+    imgSrc: "/images/abd-vs-bumrah.jpg",
+    title: "Cricket Performance Insights",
+    tags: ["Numpy", "Pandas", "Jupyter Notebook"],
+    projectLink: "https://github.com/harish1817/Batting_Analysis",
     projectDescription:
-      "This is a goal-setting and tracking SaaS app with role-based access for admin, manager, and employee.",
+      "Performed advanced cricket analytics using Python, applying MCDM - Saaty scale & TOPSIS to evaluate performance & derive strategic, data-driven insights from over 1,000 IPL match records.",
   },
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Musify: Spotify Client",
-    tags: ["API", "MVC", "Auth", "Django"],
-    projectLink: "https://github.com/dhivyabharathis14/WEB_APP",
+    imgSrc: "/images/open-trivia.png",
+    title: "Open Trivia Quiz App",
+    tags: ["Python", "API"],
+    projectLink: "https://github.com/harish1817/Quizzler_App",
     projectDescription:
-      "Developed a music controller app with Spotify OAuth integration allowing login, playback, and track control.Synchronized user interactions with live music streaming functionality.",
+      "Designed an interactive quiz app using Python and Tkinter, integrating the Open Trivia DB API and applying OOP principles to manage game logic and real-time score tracking.",
   },
-  {
-    imgSrc: "/images/project-add-on.png",
-    title: "Microsoft Add-in & Google Add-on",
-    tags: ["AppScript", "Microsoft API", "AI", "React"],
-    projectLink: "",
-    projectDescription:
-      "This is a Microsoft Add-in and Google Add-on for data transformation and insightful analysis.",
-  },
-  {
-    imgSrc: "/images/project-farm.jpg",
-    title: "Farm Automation Dashboard",
-    tags: ["Full Stack", "Elixir", "Phoenix", "React"],
-    projectLink: "",
-    projectDescription:
-      "Contributed to the frontend of a farm automation system using Elixir (Phoenix LiveView) and React JS. Enabled real-time crop monitoring and streamlined client interaction for faster feature delivery.",
-  },
+  // {
+  //   imgSrc: "/images/project-farm.jpg",
+  //   title: "Farm Automation Dashboard",
+  //   tags: ["Full Stack", "Elixir", "Phoenix", "React"],
+  //   projectLink: "",
+  //   projectDescription:
+  //     "Contributed to the frontend of a farm automation system using Elixir (Phoenix LiveView) and React JS. Enabled real-time crop monitoring and streamlined client interaction for faster feature delivery.",
+  // },
 
-  {
-    imgSrc: "/images/Project-chatbot.png",
-    title: "AI Assistant Chatbot",
-    tags: ["LangChain", "GenAI", "FastAPI", "PostgreSQL"],
-    projectLink: "",
-    projectDescription:
-      "An intelligent chatbot built using LangChain with RAG, Capable of answering user queries by referencing uploaded documents.",
-  },
+  // {
+  //   imgSrc: "/images/Project-chatbot.png",
+  //   title: "AI Assistant Chatbot",
+  //   tags: ["LangChain", "GenAI", "FastAPI", "PostgreSQL"],
+  //   projectLink: "",
+  //   projectDescription:
+  //     "An intelligent chatbot built using LangChain with RAG, Capable of answering user queries by referencing uploaded documents.",
+  // },
 ];
 
 const Work = () => {
   return (
     <section id="work" className="section">
       <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up">My portfolio highlights</h2>
+        <h2 className="headline-2 mb-8 reveal-up">My Projects</h2>
 
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {works.map(

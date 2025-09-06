@@ -18,26 +18,26 @@ const sitemap = [
 ];
 
 const socials = [
-  {
-    label: "GitHub",
-    href: "https://github.com/dhivyabharathis14",
-    icon: Github,
-  },
+  // {
+  //   label: "GitHub",
+  //   href: "https://github.com/dhivyabharathis14",
+  //   icon: Github,
+  // },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/s-dhivya-bharathi-274a2a191/",
+    href: "https://www.linkedin.com/in/harishkumar-gk/",
     icon: Linkedin,
   },
   {
     label: "Mail",
-    href: "shanmugamdhivya2@gmail.com",
+    href: "harishshri720@gmail.com",
     icon: Mail,
   },
-  {
-    label: "Instagram",
-    href: "https://www.instagram.com/dhivya_bharathi14/",
-    icon: Instagram,
-  },
+  // {
+  //   label: "Instagram",
+  //   href: "https://www.instagram.com/dhivya_bharathi14/",
+  //   icon: Instagram,
+  // },
 ];
 
 const Footer = () => {
@@ -157,7 +157,7 @@ const Footer = () => {
                 href=""
                 className="text-zinc-300 hover:text-white transition-colors duration-300 text-sm font-medium reveal-up"
               >
-                dhivya.info
+                harish.info
               </a>
             </div>
           </div>
