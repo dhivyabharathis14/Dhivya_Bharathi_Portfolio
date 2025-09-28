@@ -7,21 +7,21 @@ const badges = [
   {
     imgSrc: "/images/ms_powerbi.jpg",
     title: "Microsoft Certified: Power BI Data Analyst Associate",
-    tags: ["Certification", "Power BI", "Data Analysis"],
+    tags: ["Certification", "Power BI", "DAX"],
     projectLink:
       "https://learn.microsoft.com/en-us/users/harishgk-8731/credentials/f70660d5e591d8f8?ref=https%3A%2F%2Fwww.linkedin.com%2F",
     projectDescription:
       "Earned Microsoft’s official Power BI Data Analyst Associate certification, validating expertise in data modeling, visualization, DAX, and delivering business insights through interactive dashboards.",
   },
 
-  // {
-  //   imgSrc: "/images/Project-goalset.png",
-  //   title: " Goal Management App",
-  //   tags: ["Full Stack", "React", "Django", "SaaS"],
-  //   projectLink: "",
-  //   projectDescription:
-  //     "This is a goal-setting and tracking SaaS app with role-based access for admin, manager, and employee.",
-  // },
+  {
+    imgSrc: "/images/GENAI_Certs.png",
+    title: "Dataiku Generative AI Practitioner Certificate",
+    tags: ["Certification", "Generative AI", "Dataiku", "Hugging Face"],
+    projectLink: "",
+    projectDescription:
+      "Completed the Dataiku Generative AI Practitioner certification with hands-on experience in prompt engineering and practical use of Hugging Face and Dataiku integrations.",
+  },
   // {
   //   imgSrc: "/images/project-1.jpg",
   //   title: "Musify: Spotify Client",

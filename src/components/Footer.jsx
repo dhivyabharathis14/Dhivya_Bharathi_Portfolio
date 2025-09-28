@@ -28,11 +28,11 @@ const socials = [
     href: "https://www.linkedin.com/in/harishkumar-gk/",
     icon: Linkedin,
   },
-  {
-    label: "Mail",
-    href: "harishshri720@gmail.com",
-    icon: Mail,
-  },
+  // {
+  //   label: "harishshri720@gmail.com",
+  //   href: "harishshri720@gmail.com",
+  //   icon: Mail,
+  // },
   // {
   //   label: "Instagram",
   //   href: "https://www.instagram.com/dhivya_bharathi14/",
@@ -63,7 +63,7 @@ const Footer = () => {
                 collaborating on something amazing!
               </p>
 
-              <div className="flex items-center gap-2 mt-auto">
+              {/* <div className="flex items-center gap-2 mt-auto">
                 {socials.map(({ href, icon: Icon, label }, key) => (
                   <a
                     key={key}
@@ -77,11 +77,11 @@ const Footer = () => {
                     <span className="sr-only">{label}</span>
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Sitemap + Connect */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-white font-semibold text-lg mb-6 reveal-up">
                   Navigation
@@ -129,6 +129,21 @@ const Footer = () => {
                       </a>
                     </li>
                   ))}
+                </ul>
+                <ul className="space-y-3">
+                  <p
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex w-auto items-center gap-3 text-zinc-400 py-2 px-3 rounded-lg transition-all duration-500 ease-out hover:text-white hover:bg-zinc-800/30 hover:shadow-lg hover:shadow-zinc-900/20 hover:translate-x-1 reveal-up"
+                  >
+                    <Mail
+                      size={20}
+                      className="text-zinc-500 group-hover:text-blue-400 transition-all duration-500 ease-out group-hover:scale-110"
+                    />
+                    <span className="font-medium transition-all duration-500 ease-out">
+                      harishshri720@gmail.com
+                    </span>
+                  </p>
                 </ul>
               </div>
             </div>
