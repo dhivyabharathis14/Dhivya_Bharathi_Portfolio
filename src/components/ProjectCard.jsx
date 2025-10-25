@@ -11,6 +11,7 @@ const ProjectCard = ({
   tags,
   projectLink,
   classes,
+  link=true
 }) => {
   return (
     <div
@@ -53,10 +54,11 @@ const ProjectCard = ({
       </div>
 
       {/* Simplified action button */}
+      {link &&<>
       <div className="absolute top-3 right-3 w-9 h-9 rounded-full bg-zinc-900/80 backdrop-blur-sm border border-zinc-50/10 grid place-items-center text-zinc-400 opacity-0 group-hover:opacity-100 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300 ease-out">
         <ArrowUpRight size={14} />
       </div>
-
+      
       <a
         href={projectLink}
         target="_blank"
@@ -65,7 +67,7 @@ const ProjectCard = ({
         aria-label={`View ${title} project details`}
       >
         <span className="sr-only">View {title} project</span>
-      </a>
+      </a></>}
     </div>
   );
 };

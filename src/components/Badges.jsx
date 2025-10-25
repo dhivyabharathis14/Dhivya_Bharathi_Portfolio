@@ -19,6 +19,7 @@ const badges = [
     title: "Dataiku Generative AI Practitioner Certificate",
     tags: ["Certification", "Generative AI", "Dataiku", "Hugging Face"],
     projectLink: "",
+    link: false,
     projectDescription:
       "Completed the Dataiku Generative AI Practitioner certification with hands-on experience in prompt engineering and practical use of Hugging Face and Dataiku integrations.",
   },
@@ -65,7 +66,7 @@ const Badge = () => {
 
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {badges.map(
-            ({ imgSrc, title, tags, projectLink, projectDescription }, key) => (
+            ({ imgSrc, title, tags, projectLink, projectDescription,link }, key) => (
               <ProjectCard
                 key={key}
                 imgSrc={imgSrc}
@@ -74,6 +75,7 @@ const Badge = () => {
                 tags={tags}
                 projectLink={projectLink}
                 classes="reveal-up"
+                link={link}
               />
             )
           )}
