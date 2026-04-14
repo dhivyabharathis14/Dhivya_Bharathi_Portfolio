@@ -8,7 +8,7 @@ const experienceData = [
     period: "July 2025 – Present",
     type: "Full-time",
     description:
-"Led dashboard data source migrations, implemented predictive analytics models, and developed end-to-end performance dashboards to forecast trends and guide strategic, data-driven business decisions.",
+      "Data Science professional with experience in building predictive analytics and forecasting models using clustering and time-series techniques to drive data-driven decision-making. Skilled in developing automated data quality frameworks, optimizing data pipelines, and delivering insightful dashboards that influence business strategy. Proven ability to improve efficiency, ensure data integrity, and translate complex data into actionable insights across cross-functional teams.",
     skills: [
       "Python",
       "SQL",
@@ -20,6 +20,7 @@ const experienceData = [
       // "Geospatial Analysis",
       "Data Migration",
       // "QC Frameworks",
+      "Databricks"
     ],
   },
 

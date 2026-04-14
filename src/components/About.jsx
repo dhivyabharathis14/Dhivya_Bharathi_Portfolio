@@ -3,11 +3,11 @@ import { Github, Linkedin } from "lucide-react";
 const aboutItems = [
   {
     label: "Projects completed",
-    number: 6,
+    number: 10,
   },
   {
     label: "Years of experience",
-    number: 1,
+    number: 2,
   },
 ];
 
